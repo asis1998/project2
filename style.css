@@ -432,6 +432,32 @@ a{
 
 }
 
+/* media query for tablet  */
+
+@media (max-width:768px) {
+
+.header{
+  position:sticky;
+background: red;
+width: 100%;
+top:0;
+z-index: 1;
+
+
+ 
+  box-shadow:  0 10px  5px grey;
+
+}
+.image img{
+
+  
+   left:17em;
+   
+ }
+  
+  
+}
+
 
 
 
