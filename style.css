@@ -52,6 +52,7 @@ position:sticky;
 background: var(--background-color-global);
 width: 100%;
 top:0;
+z-index: 1;
 
 
  
@@ -120,6 +121,7 @@ top:0;
   top: 150px;
   left: 130px;
   cursor: pointer;
+  z-index: 1;
 }
 
 
@@ -138,9 +140,7 @@ top:0;
 }
 
 /* hero section  */
-.hero{
-  position: relative;
-}
+
 .info{
   position: relative;
   display: flex;
