@@ -419,15 +419,16 @@ a{
 
  .logo3>div{
   color:var(--text-color);
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   font-weight:bold;
   font-size: 50px;
   background: var(--background-color);
   padding: 20px 30px;
   border-radius: 50%;
-  position: absolute;
-  top: -5vh;
-  left: 80vw;
+  position: fixed;
+  z-index: 10;
+  top: 80vh;
+  left: 90vw;
  
 
 }
